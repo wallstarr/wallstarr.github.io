@@ -5,7 +5,7 @@ function NavBar({ toggle }) {
     <nav className="relative py-4 flex justify-between bg-customblack text-customwhite align-middle z-10">
       <Link
         to="/"
-        className="pl-7 animate-pulse font-mono font-bold text-2xl hover:text-customblue transition ease-out duration-1000"
+        className="pl-7 animate-pulse font-mono font-bold text-2xl hover:text-customyellow transition ease-out duration-1000"
       >
         DB
       </Link>
@@ -28,20 +28,20 @@ function NavBar({ toggle }) {
       </div>
 
       <div className="pr-8 pt-1 md:block hidden font-sans font-semibold">
-        <Link className="p-4 hover:underline" to="/about">
+        <Link className="p-5 hover:underline" to="/about">
           About
         </Link>
-        <Link className="p-4 hover:underline" to="/experience">
+        <Link className="p-5 hover:underline" to="/experience">
           Experience
         </Link>
-        <Link className="p-4 hover:underline" to="/projects">
+        <Link className="p-5 hover:underline" to="/projects">
           Projects
         </Link>
-        <Link className="p-4 hover:underline" to="/contact">
+        <Link className="p-5 hover:underline" to="/contact">
           Contact
         </Link>
         <button
-          className="ml-3 border-b-2 border-customwhite font-bold animate-pulse text-customwhite hover:text-customyellow hover:border-customyellow transition ease-out duration-500"
+          className="ml-5 border-b-2 border-customwhite font-bold animate-pulse text-customwhite hover:text-customyellow hover:border-customyellow transition ease-out duration-500"
           to="/resume"
         >
           Resume

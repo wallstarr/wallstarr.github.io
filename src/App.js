@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/NavBar'
 import Dropdown from './components/Dropdown'
 import IntroArea from './components/IntroArea'
+import About from './components/About'
 import React, {useState, useEffect} from 'react'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <NavBar toggle={toggle}/>
       <Dropdown toggle={toggle} isOpen={isOpen}/>
       <IntroArea></IntroArea>
+      <About></About>
     </div>
   );
 }

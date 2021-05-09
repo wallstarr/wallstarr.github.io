@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
-import HoverLetter from "./HoverLetter.js";
+import HoverLetter from "./HoverLetter";
+import RandomSong from "./RandomSong"
 
-function IntroArea({ isOpen, toggle }) {
+function IntroArea() {
   /**
    * This part of my website was inspired by this tutorial by Better Dev: 
    * https://www.youtube.com/watch?v=rCWM27pxqWw
    */
   return (
-    <div class="relative min-h-screen flex -top-6 items-center justify-center bg-customblack pt-5 overflow-x-contain">
+    <div class="relative min-h-screen flex -top-6 items-center justify-center bg-customblack pt-5 overflow-x-contain z-0">
       <div class="absolute inset-0 top-6 grid transform scale-y-150 -skew-y-12">
         <div class="bg-customblack z-0"> </div>
 
@@ -37,7 +37,7 @@ function IntroArea({ isOpen, toggle }) {
             <HoverLetter letter={"t"}></HoverLetter>
             <HoverLetter letter={"e"}></HoverLetter>
             <HoverLetter letter={"i"}></HoverLetter>
-            <HoverLetter letter={"n"}></HoverLetter>. nice to meet (?) you
+            <HoverLetter letter={"n"}></HoverLetter>. nice to meet you.
           </h1>
         </div>
 
@@ -49,7 +49,10 @@ function IntroArea({ isOpen, toggle }) {
 
         </div>
 
+        <RandomSong></RandomSong>
+
       </div>
+    
 
     </div>
   );
