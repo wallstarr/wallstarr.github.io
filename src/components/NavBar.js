@@ -1,8 +1,8 @@
-import { Link, button } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 function NavBar({ toggle }) {
   return (
-    <nav className="relative py-4 flex justify-between bg-customblack text-customwhite align-middle">
+    <nav className="relative py-4 flex justify-between bg-customblack text-customwhite align-middle z-10">
       <Link
         to="/"
         className="pl-7 animate-pulse font-mono font-bold text-2xl hover:text-customblue transition ease-out duration-1000"

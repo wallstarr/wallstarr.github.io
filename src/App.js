@@ -25,11 +25,11 @@ function App() {
   })
 
   return (
-    <>
+    <div class="overscroll-contain">
       <NavBar toggle={toggle}/>
       <Dropdown toggle={toggle} isOpen={isOpen}/>
       <IntroArea></IntroArea>
-    </>
+    </div>
   );
 }
 
