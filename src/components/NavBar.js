@@ -2,10 +2,10 @@ import { Link, button } from "react-router-dom";
 
 function NavBar({ toggle }) {
   return (
-    <nav className="py-4 flex justify-between bg-customblack text-customwhite align-middle">
+    <nav className="relative py-4 flex justify-between bg-customblack text-customwhite align-middle">
       <Link
         to="/"
-        className="pl-7 animate-pulse font-mono font-bold text-2xl hover:text-customblue"
+        className="pl-7 animate-pulse font-mono font-bold text-2xl hover:text-customblue transition ease-out duration-1000"
       >
         DB
       </Link>
@@ -41,7 +41,7 @@ function NavBar({ toggle }) {
           Contact
         </Link>
         <button
-          className="ml-3 border-b-2 border-customwhite font-bold animate-pulse text-customwhite hover:text-customyellow hover:border-customyellow"
+          className="ml-3 border-b-2 border-customwhite font-bold animate-pulse text-customwhite hover:text-customyellow hover:border-customyellow transition ease-out duration-500"
           to="/resume"
         >
           Resume
