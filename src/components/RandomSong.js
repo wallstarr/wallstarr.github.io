@@ -15,7 +15,7 @@ function RandomSong() {
 
 
   return (
-    <div class="play-video flex-row">
+    <div class="play-video flex-row animate-slideIn8 opacity-0">
       <button onClick={() => {
           if (!isClicked) {
             setIsClicked(true);

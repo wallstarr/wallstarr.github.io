@@ -25,7 +25,7 @@ function IntroArea() {
 
       <div class="flex flex-col items-center justify-center text-center z-10 pb-14">
         <div>
-          <h1 class="text-5xl text-customwhite font-bold justify-center py-4">
+          <h1 class="text-5xl opacity-0 animate-slideIn6 text-customwhite font-bold justify-center py-4">
             hello, my name is
             <HoverLetter letter={" D"}></HoverLetter>
             <HoverLetter letter={"a"}></HoverLetter>
@@ -43,7 +43,7 @@ function IntroArea() {
         </div>
 
         <div>
-          <h4 class="text-xl text-customyellow font-semibold">
+          <h4 class="text-xl opacity-0 animate-slideIn7 text-customyellow font-semibold">
             I am an aspiring software engineer seeking a 4/8 month co-op
             oppurtunity starting in September 2021.
           </h4>

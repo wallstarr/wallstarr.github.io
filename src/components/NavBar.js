@@ -28,20 +28,20 @@ function NavBar({ toggle }) {
       </div>
 
       <div className="pr-8 pt-1 md:block hidden font-sans font-semibold">
-        <Link className="p-5 hover:underline" to="/about">
+        <Link className="p-5 animate-slideIn1 opacity-0 hover:underline" to="/about">
           About
         </Link>
-        <Link className="p-5 hover:underline" to="/experience">
+        <Link className="p-5 animate-slideIn2 opacity-0 hover:underline" to="/experience">
           Experience
         </Link>
-        <Link className="p-5 hover:underline" to="/projects">
+        <Link className="p-5 animate-slideIn3 opacity-0 hover:underline" to="/projects">
           Projects
         </Link>
-        <Link className="p-5 hover:underline" to="/contact">
+        <Link className="p-5 animate-slideIn4 opacity-0 hover:underline" to="/contact">
           Contact
         </Link>
         <button
-          className="ml-5 border-b-2 border-customwhite font-bold animate-pulse text-customwhite hover:text-customyellow hover:border-customyellow transition ease-out duration-500"
+          className="ml-5 animate-slideIn5 opacity-0 border-b-2 border-customwhite font-bold text-customwhite hover:text-customyellow hover:border-customyellow transition ease-out duration-500"
           to="/resume"
         >
           Resume
