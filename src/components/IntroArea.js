@@ -1,4 +1,4 @@
-import HoverLetter from "./HoverLetter";
+import HoverLetter from "./HoverLetter"
 import RandomSong from "./RandomSong"
 
 function IntroArea() {
@@ -6,6 +6,7 @@ function IntroArea() {
    * This part of my website was inspired by this tutorial by Better Dev: 
    * https://www.youtube.com/watch?v=rCWM27pxqWw
    */
+
   return (
     <div class="relative min-h-screen flex -top-6 items-center justify-center bg-customblack pt-5 overflow-x-contain z-0">
       <div class="absolute inset-0 top-6 grid transform scale-y-150 -skew-y-12">
