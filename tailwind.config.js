@@ -1,7 +1,21 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
+
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontSize: {
+      'xxs': '.59rem',
+      'xxxs': '.52rem',
+      'supersmall': '.43rem',
+      ...defaultTheme.fontSize
+    },
+    screens: {
+      'tiny': '359px',
+      'verytiny': '319px',
+      ...defaultTheme.screens
+    },
     extend: {
       colors: {
         'customblack': '#252525',
@@ -11,7 +25,8 @@ module.exports = {
         'customred': '#ff0000',
         'customdarkred': '#af0404',
         'customgray': '#414141',
-        'customwhite': '#f1f1f1'
+        'customwhite': '#f1f1f1',
+        'customnavy': "#070740"
       },
       keyframes: {
         slideIn: {
@@ -29,7 +44,6 @@ module.exports = {
         slideIn7: 'slideIn 1s ease-in-out forwards 2s',
         slideIn8: 'slideIn 1s ease-in-out forwards 3s'
       }
-
     }
   },
   variants: {
