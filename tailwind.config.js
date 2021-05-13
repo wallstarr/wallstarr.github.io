@@ -1,6 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
-
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
@@ -8,7 +7,7 @@ module.exports = {
     fontSize: {
       'xxs': '.59rem',
       'xxxs': '.52rem',
-      'supersmall': '.43rem',
+      'supersmall': '.45rem',
       ...defaultTheme.fontSize
     },
     screens: {
