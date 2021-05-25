@@ -3,6 +3,8 @@ import NavBar from './components/NavBar'
 import Dropdown from './components/Dropdown'
 import IntroArea from './components/IntroArea'
 import About from './components/About'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
 import React, {useState, useEffect} from 'react'
 
 function App() {
@@ -31,6 +33,8 @@ function App() {
       <Dropdown toggle={toggle} isOpen={isOpen}/>
       <IntroArea></IntroArea>
       <About></About>
+      <Projects></Projects>
+      <Experience></Experience>
     </div>
   );
 }

@@ -18,6 +18,7 @@ module.exports = {
     extend: {
       colors: {
         'customblack': '#252525',
+        'customblack2': '#1c1c1c',
         'custombrown': '#23120b',
         'customyellow': '#fdb827',
         'customblue': '#291cd9',
