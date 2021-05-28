@@ -1,5 +1,4 @@
 import { Link} from "react-router-dom";
-import Scrollchor from "react-scrollchor"
 
 function NavBar({ toggle }) {
   return (
