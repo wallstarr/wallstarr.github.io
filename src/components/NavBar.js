@@ -1,4 +1,5 @@
 import { Link} from "react-router-dom";
+import Scrollchor from "react-scrollchor"
 
 function NavBar({ toggle }) {
   return (
@@ -28,16 +29,16 @@ function NavBar({ toggle }) {
       </div>
 
       <div className="pr-8 pt-1 md:block hidden font-sans font-semibold">
-        <Link className="p-5 animate-slideIn1 opacity-0 hover:underline" to="/about">
+        <Link className="p-5 animate-slideIn1 opacity-0 hover:underline" to="#about">
           About
         </Link>
-        <Link className="p-5 animate-slideIn2 opacity-0 hover:underline" to="/experience">
+        <Link className="p-5 animate-slideIn2 opacity-0 hover:underline" to="#experience">
           Experience
         </Link>
-        <Link className="p-5 animate-slideIn3 opacity-0 hover:underline" to="/projects">
+        <Scrollchor className="p-5 animate-slideIn3 opacity-0 hover:underline" to="#projects">
           Projects
-        </Link>
-        <Link className="p-5 animate-slideIn4 opacity-0 hover:underline" to="/contact">
+        </Scrollchor>
+        <Link className="p-5 animate-slideIn4 opacity-0 hover:underline" to="#contact">
           Contact
         </Link>
         <button

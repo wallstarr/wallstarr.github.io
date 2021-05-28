@@ -36,9 +36,9 @@ export default [
     },
     {
         title: "StatTrak - NBA Stat Tracking Desktop App",
-        description: "NBA statistics Desktop JavaFX app, complete with a comparison tool and persistence for favorited players. The app utilizes the BallDontLie API to retrieve the player stats.",
+        description: "NBA statistics Desktop JavaFX app, complete with a comparison tool and persistence for favorited players. The app utilizes the BallDontLie API to retrieve player stats.",
         imageLink: "https://i.ibb.co/PZb1Ypj/Screen-Shot-2021-05-26-at-23-38-08.png",
-        stack: ["Java 8", "JavaFX"],
+        stack: ["Java 8", "JavaFX", "Gson"],
         github: "https://github.com/wallstarr/stattrak"
     }
 ]
