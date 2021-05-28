@@ -34,9 +34,9 @@ function NavBar({ toggle }) {
         <Link className="p-5 animate-slideIn2 opacity-0 hover:underline" to="#experience">
           Experience
         </Link>
-        <Scrollchor className="p-5 animate-slideIn3 opacity-0 hover:underline" to="#projects">
+        <Link className="p-5 animate-slideIn3 opacity-0 hover:underline" to="#projects">
           Projects
-        </Scrollchor>
+        </Link>
         <Link className="p-5 animate-slideIn4 opacity-0 hover:underline" to="#contact">
           Contact
         </Link>
