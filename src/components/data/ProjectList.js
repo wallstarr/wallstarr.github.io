@@ -1,4 +1,4 @@
-export default [
+const project_list = [
     {
         title: "nameofsite.xyz",
         description:"My recently developed portfolio website! You're on it right now! Super simple to maintain for adding/removing projects and scalable down to the Galaxy Fold. I utilized React.js to code reuseable components and TailwindCSS to style. An actual experience section will come when I... get some experience.",
@@ -42,3 +42,5 @@ export default [
         github: "https://github.com/wallstarr/stattrak"
     }
 ]
+
+export default project_list
