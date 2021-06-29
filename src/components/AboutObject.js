@@ -10,8 +10,7 @@ function AboutObject() {
       </div>
       <div>
         <span class="text-gray-600">3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span class="text-customyellow">“developing”</span>: “iOS Widget
-        tracking Japan's COVID",
+        <span class="text-customyellow">“developing”</span>: “ODPT Challenge",
       </div>
       <div>
         <span class="text-gray-600">4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
