@@ -40,12 +40,12 @@ function NavBar({ toggle }) {
         <a className="p-5 animate-slideIn4 opacity-0 hover:underline" href="#contact">
           Contact
         </a>
-        <button
+        <a
           className="ml-5 animate-slideIn5 opacity-0 border-b-2 border-customwhite font-bold text-customwhite hover:text-customyellow hover:border-customyellow transition ease-out duration-500"
-          to="/resume"
+          href="https://drive.google.com/file/d/1dy9hIp1cWPzkD8EXO8eNPXeTBN7-hgZC/view" target="_blank" rel="noreferrer"
         >
           Resume
-        </button>
+        </a>
       </div>
     </nav>
   );
