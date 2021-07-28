@@ -44,8 +44,7 @@ function IntroArea() {
 
         <div>
           <h4 class="text-xl opacity-0 animate-slideIn7 text-customyellow font-semibold">
-            I am an aspiring software engineer seeking a 4/8 month co-op
-            oppurtunity starting in September 2021.
+            I am an aspiring software engineer, and incoming SRE Intern at Visier Inc.
           </h4>
 
         </div>
