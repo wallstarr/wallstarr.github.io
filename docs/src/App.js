@@ -29,7 +29,7 @@ function App() {
   })
 
   return (
-    <div class="overscroll-contain">
+    <div class="root">
       <NavBar toggle={toggle}/>
       <Dropdown toggle={toggle} isOpen={isOpen}/>
       <IntroArea></IntroArea>
