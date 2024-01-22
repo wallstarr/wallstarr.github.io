@@ -32,7 +32,7 @@ jobs:
       run: npm install
 
     - name: Pre-deployment Script Execution
-      run: npm run pre-deploy
+      run: npm run predeploy
 
     - name: Deployment to gh-pages
       run: |
