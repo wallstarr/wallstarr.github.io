@@ -15,7 +15,7 @@ function RandomSong() {
 
 
   return (
-    <div class="play-video flex-row animate-slideIn8 opacity-0">
+    <div className="play-video flex-row animate-slideIn8 opacity-0">
       <button onClick={() => {
           if (!isClicked) {
             setIsClicked(true);
@@ -24,16 +24,16 @@ function RandomSong() {
             setLink(getRandomSongLink() + "?autoplay=1")
           }
           
-      }} class="rounded font-sans text-customblack bg-customyellow text-xl font-semibold p-0.5 pl-1 pr-1 mt-3 hover:text-customyellow hover:bg-customblack transition ease-in-out duration-100">
+      }} className="rounded font-sans text-customblack bg-customyellow text-xl font-semibold p-0.5 pl-1 pr-1 mt-3 hover:text-customyellow hover:bg-customblack transition ease-in-out duration-100">
         random song?
       </button>
-      <div class={isClicked ? "pt-2" : "hidden"}>
+      <div className={isClicked ? "pt-2" : "hidden"}>
         <iframe
           width="300"
           height="200"
           src={songLink}
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>

@@ -29,7 +29,7 @@ function App() {
   })
 
   return (
-    <div class="root">
+    <div className="root">
       <NavBar toggle={toggle}/>
       <Dropdown toggle={toggle} isOpen={isOpen}/>
       <IntroArea></IntroArea>
