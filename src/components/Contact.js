@@ -5,7 +5,7 @@ function Contact() {
         Let's get in touch!
       </div>
       <div className="text-2xl px-5 md:px-12 text-center mb-4">
-        If you wish to contact me, feel free to shoot me an email!
+        If you want to get into contact, shoot me an email!
       </div>
 
       <a className="flex flex-row bg-gradient-to-r from-customblue to-gray-500 hover:to-customyellow text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out" href="mailto:dansakai0@gmail.com" rel="noopener noreferrer" target="_blank">

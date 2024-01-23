@@ -35,7 +35,6 @@ function App() {
       <IntroArea></IntroArea>
       <About></About>
       <Projects></Projects>
-      <Experience></Experience>
       <Contact></Contact>
     </div>
   );

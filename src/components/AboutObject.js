@@ -10,15 +10,15 @@ function AboutObject() {
       </div>
       <div>
         <span className="text-gray-600">3</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span className="text-customyellow">“developing”</span>: “Poker Odds App",
+        <span className="text-customyellow">“developing”</span>: “quick_chess",
       </div>
       <div>
         <span className="text-gray-600">4</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span className="text-customyellow">“watching”</span>: ["Made in Abyss"],
+        <span className="text-customyellow">“watching”</span>: ["The Wire", "NBA games"],
       </div>
       <div>
         <span className="text-gray-600">5</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <span className="text-customyellow">“status”</span>: “hoping to work on cool stuff”
+        <span className="text-customyellow">“status”</span>: “job searching 🔍”
       </div>
       <div>
         <span className="text-gray-600">6</span>&nbsp;&nbsp;&#125;

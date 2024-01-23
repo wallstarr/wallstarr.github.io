@@ -34,15 +34,15 @@ function NavBar({ toggle }) {
         <a className="p-5 animate-slideIn3 opacity-0 hover:underline" href="#projects">
           Projects
         </a>
-        <a className="p-5 animate-slideIn2 opacity-0 hover:underline" href="#experience">
+        {/* <a className="p-5 animate-slideIn2 opacity-0 hover:underline" href="#experience">
           Experience
-        </a>
+        </a> */}
         <a className="p-5 animate-slideIn4 opacity-0 hover:underline" href="#contact">
           Contact
         </a>
         <a
           className="ml-5 animate-slideIn5 opacity-0 border-b-2 border-customwhite font-bold text-customwhite hover:text-customyellow hover:border-customyellow transition ease-out duration-500"
-          href="https://drive.google.com/file/d/14-VoMWfkhY1kJp4m-XaBPDaRhCG9VfWy/view" target="_blank" rel="noreferrer"
+          href="https://drive.google.com/file/d/17i-9QATMqp0DvYn4jSJ2_l0d_Qt4ZVmO/view?usp=sharing" target="_blank" rel="noreferrer"
         >
           Resume
         </a>
